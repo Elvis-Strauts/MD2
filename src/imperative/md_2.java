@@ -30,16 +30,16 @@ public class md_2 {
 				
 
 		public static Set<Integer> Number(int n) {
-	        System.out.println("Elvis Strauts 3.g 171RDB062");
-	        System.out.print("Enter A Number: ");
+			System.out.println("Elvis Strauts 3.g 171RDB062");
+			System.out.print("Enter your number here: ");
 			Set<Integer> sNumber =  new HashSet<Integer>();
-			int nsqr = (int) Math.round(Math.sqrt(n)) + 1;
-			System.out.println(n);
-			IntStream.range(1, nsqr).forEach( (num) ->{
+				int nsqr = (int) Math.round(Math.sqrt(n)) + 1;
 				System.out.println(n);
-				if (n%num == 0){
-					sNumber.add(num);
-					sNumber.add(n/num);
+				IntStream.range(1, nsqr).forEach( (num) ->{
+					System.out.println(n);
+					if (n%num == 0){
+						sNumber.add(num);
+						sNumber.add(n/num);
 					}
 				});
 			return sNumber;
