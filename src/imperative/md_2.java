@@ -30,7 +30,7 @@ public class md_2 {
 				
 
 		public static Set<Integer> Number(int n) {
-	        System.out.println("Kirils Petrovs 2.g 171rdb098");
+	        System.out.println("Elvis Strauts 3.g 171RDB062");
 	        System.out.print("Enter A Number: ");
 			Set<Integer> sNumber =  new HashSet<Integer>();
 			int nsqr = (int) Math.round(Math.sqrt(n)) + 1;
